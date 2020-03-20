@@ -1,0 +1,101 @@
+.cover{
+	height:200px;
+	color: white;
+	background-image: url(cover.jpg);
+	background-size: cover;
+}
+
+body{
+	background-color: #e6dbdc;
+	font-family: cursive;
+}
+
+.cover h1{
+	padding-top: 70px;
+	font-style: bold;
+	font-size: 40px;
+	font-family: cursive;
+}
+
+.sidepane-l	{
+	height: 500px;
+	width: 300px;
+	float: left;
+	background-size: cover; 
+	background-image: url(left.jpg);
+}
+
+.sidepane-l p{
+	padding-left: 10px;
+	color:white;
+	font-size: 20px;
+}
+
+.main{
+	height: 500PX;
+	width: 903px;
+	float: left;
+	background-image: url(form.jpg);
+	background-size: cover;
+}
+
+.sidepane-r{	
+	height: 500px;
+	width: 300px;
+	float: right;
+	font-size: 18px;
+	color: white;
+	background-image: url("right.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.sidepane-l li{
+	color: white;
+	font-size: 18px;
+	list-style: none;
+}
+
+form{
+	padding-left: 40px;
+	padding-top: 40px;
+	font-size: 18px;
+}
+
+.detail input{
+	width:50%;
+	padding: 10px 20px;
+	margin:4px 0;
+	box-sizing: border-box;
+	border: 4px solid #1926D1;
+	border-radius: 4px;
+	font-weight: bold;
+ }
+
+.button {
+  background-color: #0080ff;
+  border: 2px solid white;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px 2px;
+  cursor: pointer;
+}
+
+.button1 {
+	border-radius: 4px;
+}
+
+.foot{
+	background-color:#f4f5f8;
+	height: 500px;
+	font-weight: bold;
+	width: 100%;
+}
+
+.foot p{
+	padding-top: 150px;
+}
