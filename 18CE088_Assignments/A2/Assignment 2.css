@@ -1,0 +1,54 @@
+body {
+	border-style: inset;
+	border-color: red;
+	border-radius: 50px;
+	border-width: 10px;
+	padding: 2%;
+	margin: 50px;
+}
+.table_div {
+	margin: auto;
+	width: 600px;
+	border-style: ridge;
+	border-color: red;
+	border-width: 10px;
+	border-radius: 10px;
+	font-size: 20px;
+	padding: 10px;
+}
+.image {
+	float: left;
+	width: 300px;
+	height: 200px;
+}
+h2 {
+	backface-visibility: initial;
+	position: relative;
+	font-family: serif;
+	color: red;
+	font-size: 50px;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: black;
+}
+.text {
+	text-align: justify;
+	font-size: 30px;
+	font-family: cursive;
+}
+.table th {
+	border-style: inset;
+	border-color: black;
+	text-align: center;
+	font-size: 30px;
+	height: 50px;
+}
+.table td {
+	border-style: inset;
+	border-color: black;
+	text-align: center;
+	height: 50px;
+}
+.type {
+	width: 150px;
+}
